@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item android:id="@+id/nav_students"
+            android:icon="@drawable/ic_account_outline_white_24dp"
+            android:title="Students" />
+        <item android:id="@+id/nav_teachers"
+            android:icon="@drawable/ic_account_outline_white_24dp"
+            android:title="Teachers" />
+        <item android:id="@+id/nav_faculties"
+            android:icon="@drawable/ic_bank_white_24dp"
+            android:title="Faculties" />
+        <item android:id="@+id/nav_groups"
+            android:icon="@drawable/ic_account_multiple_white_24dp"
+            android:title="Groups" />
+        <item android:id="@+id/nav_subjects"
+            android:icon="@drawable/ic_book_open_page_variant_white_24dp"
+            android:title="Subjects" />
+        <item android:id="@+id/nav_requests"
+            android:icon="@drawable/ic_alert_circle_white_24dp"
+            android:title="Requests" />
+        <item android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_calendar_white_24dp"
+            android:title="Schedule" />
+    </group>
+</menu>

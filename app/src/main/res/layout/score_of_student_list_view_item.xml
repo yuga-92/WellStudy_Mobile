@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/grid_view_back"
+    android:layout_margin="5dp"
+    android:padding="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Lesson:"
+            android:id="@+id/lesson_label"
+            android:textStyle="bold"
+            android:textColor="#030101"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="lesson"
+            android:paddingRight="30dp"
+            android:id="@+id/lesson_textView"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textColor="#030101"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/lesson_label"
+            android:layout_toEndOf="@+id/lesson_label" />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/abc_search_url_text_pressed"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="95dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/lesson_label"
+            android:layout_toEndOf="@+id/lesson_textView"
+            android:id="@+id/view2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Mark:"
+            android:id="@+id/textView3"
+            android:textStyle="bold"
+            android:textColor="#030101"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/view2"
+            android:layout_toEndOf="@+id/view2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="5"
+            android:id="@+id/mark_textView"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textColor="#030101"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/textView3"
+            android:layout_toEndOf="@+id/textView3" />
+        <View
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@color/abc_search_url_text_pressed"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toRightOf="@+id/mark_textView"
+            android:layout_toEndOf="@+id/mark_textView"
+            android:id="@+id/view3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="DD/MM/YY"
+            android:id="@+id/date_textView"
+            android:textStyle="bold"
+            android:textColor="#030101"
+            android:layout_centerVertical="true"
+            android:layout_alignLeft="@+id/view3"
+            android:layout_marginLeft="10dp"
+            android:layout_alignStart="@+id/view3" />
+        <!--<ImageView-->
+            <!--android:layout_width="30dp"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:id="@+id/subjectActivityStatusImage"-->
+            <!--android:src="@drawable/active"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_alignParentEnd="true" />-->
+    </RelativeLayout>
+
+
+</LinearLayout>

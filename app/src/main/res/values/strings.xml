@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Wellstudy Mobile</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="remember_me">Remember me</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="ssoid">SSOID</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="faculty">Faculty:</string>
+    <string name="group">Group:</string>
+    <string name="type_of_education">Type of education:</string>
+    <string name="on_site_commertional">on-site commertional</string>
+    <string name="on_site_sponsored">on-site sponsored</string>
+    <string name="off_site">off-site</string>
+    <string name="add_new_student">Add new student:</string>
+    <string name="login">Login</string>
+</resources>
